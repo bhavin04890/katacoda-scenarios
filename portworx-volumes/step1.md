@@ -34,7 +34,7 @@ We have created a few volumes for you to explore.
 >>Q6: Which Pool do these volumes belong to?<<
 () Pool 1
 () Pool HIGH IO
-() Pool 0 
+(*) Pool 0 
 () Pool SSD
 
 
