@@ -3,6 +3,9 @@ kind: Deployment
 metadata:
   name: postgres
 spec:
+  selector:
+    matchLabels:
+      app: postgres
   strategy:
     rollingUpdate:
       maxSurge: 1
